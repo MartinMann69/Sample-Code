@@ -1,9 +1,16 @@
+// Created in a school context while developing a project at the Games Academy.
+
 using Steamworks;
 using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
+
+/// <summary>
+/// Networked actor controller that manages health, life state, revive interactions,
+/// ready state, and match timer synchronization for player actors.
+/// </summary>
 public class NetActor : MonoBehaviour, IInteractable
 {
 	public enum LifeState
